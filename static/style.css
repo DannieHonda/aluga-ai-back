@@ -1,0 +1,106 @@
+body {
+    width: 100%;
+    height: 100%;
+    margin: 0 auto;
+    background-color: #E9C46A !important;
+}
+
+/*reset manual para alinhar "sobre nós"*/
+
+.logo-principal {
+    display: flex;
+    justify-content: center;
+    margin-left: auto;
+    margin-right: auto;
+    background-color: #f8f8f8;
+    padding-top: 1%;
+    padding-bottom: 1%;
+}
+
+.concessionaria {
+    display: flex;
+    justify-content: center;
+    margin-left: auto;
+    margin-right: auto;
+    background-color: #E76F51;
+    padding-top: 1%;
+    padding-bottom: 1%;
+}
+
+.foto-concessionaria {
+    border-radius: 25px;
+    display: flex;
+    justify-content: center;
+    margin-left: auto;
+    margin-right: auto;
+    background-color: #E76F51;
+    padding-top: 1%;
+    padding-bottom: 1%;
+}
+
+
+/* Navbar */
+
+.navbar {
+    background-color: #E9C46A;
+}
+
+/* Bootstrap */
+
+.pesquisa-form {
+    margin-top: 5%;
+}
+
+.botao-form {
+    color: blue;
+    background-color: black;
+}
+
+.sobre-nos {
+    display: flex;
+    justify-content: center;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+/* Sobre nós */
+
+.wrapper {
+	padding: 5px;
+	max-width: 85%;
+    height: 500px;
+	width: 95%;
+	margin: 20px auto;
+}
+
+/*.titulo-sobre-nos {
+    color: white;
+    display: flex;
+    justify-content: center;
+    margin-left: auto;
+    margin-right: auto;
+}*/
+
+.columns {
+	display: flex;
+	flex-flow: row wrap;
+	justify-content: center;
+	margin: 5px 0;
+}
+
+.column {
+    color: white;
+    height: 400px;
+    background-color: #2A9D8F;
+	flex: 1;
+	margin: 20px;
+	padding: 10px;
+    border-radius: 7px;
+}
+
+.columns.h2 {
+    display: flex;
+    justify-content: center;
+    margin-left: auto;
+    margin-right: auto;
+}

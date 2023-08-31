@@ -1,0 +1,24 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Cadastro de Reservas</title>
+</head>
+<body>
+    <h1>Cadastro de Reservas</h1>
+
+    <form method="POST" action="/reservas">
+        <label for="nome_cliente">Nome do Cliente:</label>
+        <input type="text" name="nome_cliente" id="nome_cliente" required><br><br>
+
+        <label for="data_retirada">Data de Retirada:</label>
+        <input type="date" name="data_retirada" id="data_retirada" required><br><br>
+
+        <label for="data_devolucao">Data de Devolução:</label>
+        <input type="date" name="data_devolucao" id="data_devolucao" required><br><br>
+
+        <input type="submit" value="Cadastrar Reserva">
+    </form>
+</br>
+<button type="button" onclick="window.location.href='/listar_carros'">Carros Disponíveis</button>
+</body>
+</html>

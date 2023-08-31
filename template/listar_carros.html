@@ -1,0 +1,31 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Listagem de Carros</title>
+</head>
+<body>
+    <h1>Listagem de Carros</h1>
+    <table>
+        <thead>
+            <tr>
+                <th>Categoria</th>
+                <th>Nome do Modelo</th>
+                <th>Descrição da Marca</th>
+            </tr>
+        </thead>
+        <tbody>
+            {% for carro in result %}
+            <tr>
+                <td>{{ carro[0] }}</td>
+                <td>{{ carro[1] }}</td>
+                <td>{{ carro[2] }}</td>
+                <td><a href="/reservas?carro_id={{ carro[3] }}">Fazer reserva deste carro</a></td>
+            </tr>
+            {% endfor %}
+        </tbody>
+    </table>
+    <br>
+    <a href="/reservas">Voltar para a página de reservas</a>
+</body>
+</html>
+
